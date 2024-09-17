@@ -4,7 +4,7 @@ Métodos:
     • Crear un constructor que reciba como parámetros el título y género de la canción.
     • Utiliza los métodos get y set para recibir e imprimir la propiedad autor. 
     • Crea un método para mostrar los datos de la canción. */
-class Cancion {
+export class Cancion {
     titulo: string;
     genero: string;
     private autor: string;
@@ -28,7 +28,7 @@ class Cancion {
     }
 }
 
-const cancion = new Cancion('Imagine', 'Rock');
+/* const cancion = new Cancion('Imagine', 'Rock');
 cancion.setAutor('John Lennon');
-cancion.mostrarDatos();
+cancion.mostrarDatos(); */
       

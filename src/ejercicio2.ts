@@ -6,7 +6,7 @@
 • Potencia
 • Factorial */
 
-class Calculadora {
+export class Calculadora {
     sumar(a: number, b: number): number {
       return a + b;
     }
@@ -36,7 +36,7 @@ class Calculadora {
       return n * this.factorial(n - 1);
     }
 }
-  const calculadora = new Calculadora();
+  /*const calculadora = new Calculadora();
   console.log(calculadora.sumar(3, 4)); 
-  console.log(calculadora.factorial(5));
+  console.log(calculadora.factorial(5));*/
   

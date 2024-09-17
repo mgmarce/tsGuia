@@ -8,7 +8,7 @@ Nota: Para el método retirar debes de validar que lo que se retire sea mayor de
 • Crea un método para mostrar los datos de su nombre, tipo de cuenta y número de cuenta. 
 • Define un objeto de la clase Cuenta y llama sus métodos.
 */
-class Cuenta {
+export class Cuenta {
     nombre: string;
     cantidad: number;
     tipoCuenta: string;
@@ -46,9 +46,9 @@ class Cuenta {
     }
 }
   
-  // Uso:
+  /*
   const cuenta = new Cuenta('John Doe', 100, 'Ahorro', '12345');
   cuenta.mostrarDatos();
   cuenta.depositar(10);
-  cuenta.retirar(20);
+  cuenta.retirar(20); */
   

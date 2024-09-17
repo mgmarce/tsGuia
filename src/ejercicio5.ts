@@ -32,9 +32,9 @@ abstract class Persona {
     }
   
     abstract mostrarDatos(): void;
-  }
+}
   
-  class Empleado extends Persona {
+export class Empleado extends Persona {
     sueldo: number;
   
     constructor(nombre: string, apellido: string, direccion: string, telefono: string, edad: number, sueldo: number) {
@@ -55,9 +55,9 @@ abstract class Persona {
     }
 }
   
-  // Uso:
+  /* Uso:
   const empleado = new Empleado('Ana', 'Perez', 'Calle Falsa 123', '555-5555', 25, 2000);
   empleado.mostrarDatos();
   empleado.imprimirSueldo();
-  empleado.esMayorDeEdad();
+  empleado.esMayorDeEdad(); */
   
