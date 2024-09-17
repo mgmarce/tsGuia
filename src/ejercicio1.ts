@@ -11,7 +11,7 @@ export class CabeceraPagina {
       this.titulo = titulo;
       this.color = color;
       this.fuente = fuente;
-      this.alineacion = 'izquierda'; // Valor por defecto
+      this.alineacion = 'izquierda';
     }
   
     setAlineacion(alineacion: 'centrado' | 'derecha' | 'izquierda') {
@@ -21,14 +21,9 @@ export class CabeceraPagina {
     obtenerPropiedades(){
       console.log(`Título: ${this.titulo}, Color: ${this.color}, Fuente: ${this.fuente}`);
     }
-  
-    imprimirCabecera(): void {
-      console.log(`El título "${this.titulo}" está alineado a la ${this.alineacion}, con color ${this.color} y fuente ${this.fuente}`);
+
+    imprimirCabecera(): string {
+      return `El título "${this.titulo}" está alineado a la ${this.alineacion}, con color ${this.color} y fuente ${this.fuente}`;
     }
 }
-  
-  /*const cabecera = new CabeceraPagina('Bienvenidos', 'Azul', 'Arial');
-  cabecera.obtenerPropiedades();
-  cabecera.setAlineacion('centrado');
-  cabecera.imprimirCabecera();*/
   
