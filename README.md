@@ -6,6 +6,5 @@ Este proyecto utiliza **TypeScript** y **Vite**
 
 ## Información
 
-**Nombre: ** Marcela Carolina Menjivar Gutiérrez
-**Link: ** https://tsguia.netlify.app/
-
+**Nombre:** Marcela Carolina Menjivar Gutiérrez
+* [LINK](https://tsguia.netlify.app/) -- Visualizar contenido
